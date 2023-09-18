@@ -1,12 +1,50 @@
+body {
+    margin-top: 0;
+    background: rgb(214, 245, 255);
+}
 
-/* 
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: rgb(42, 72, 180);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    width: 40%;
+    margin-top: 100px;
+    height: 420px;
+}
 
-*/
+.item {
+    font-size: small;
+    color: grey;
+    margin-top: 5px;
+    list-style: none;
+}
+
+.box i {
+    visibility: hidden;
+}
+
+.box:hover i {
+    visibility: visible;
+    color: red;
+}
+
+.paper {
+    background: #fff;
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.20),
+        0 10px 0 -5px #eee,
+        0 10px 1px -4px rgba(0, 0, 0, 0.20),
+        0 20px 0 -10px #eee,
+        0 20px 1px -9px rgba(0, 0, 0, 0.20);
+    padding: 40px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(192, 239, 255);
+}
